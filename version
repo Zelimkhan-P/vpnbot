@@ -1,0 +1,123 @@
+12.09.2023 AdGuardHome v0.107.38
+<code>git pull</code>
+<code>make r</code>
+10.09.2023 фикс сертбота
+<code>git pull</code>
+<code>make r</code>
+09.09.2023 AdGuardHome v0.107.37
+<code>git pull</code>
+<code>make r</code>
+24.08.2023 показ пароля в меню Shadowsocks
+<code>git pull</code>
+21.08.2023 фикс прокси через 10.10.0.3
+<code>git pull</code>
+<code>make r</code>
+<b>щелкнуть кнопку v2ray 2 раза</b>
+19.08.2023 фикс xtls
+<code>git stash</code>
+<code>git pull</code>
+<code>git stash pop</code>
+<code>make r</code>
+19.08.2023 показывает в логах и в адгварде реальные айпи пользователей
+<b>сделать бэкап</b>
+<code>git reset --hard</code>
+<code>git pull</code>
+<b>импорт бэкапа</b>
+<code>make r</code>
+<b>сделать новый бэкап</b>
+07.08.2023 AdGuardHome v0.107.36
+<code>git pull</code>
+21.07.2023 уведомления при нажатии кнопки
+<code>git pull</code>
+20.07.2023 кнопка блокировки обмена между пирами
+<code>git pull</code>
+<code>make r</code>
+16.07.2023 AdGuardHome v0.107.34
+<code>git pull</code>
+<code>make r</code>
+16.07.2023
+- настройка кол-ва итемов пагинации
+- добавлен config/include.conf для подключения доп конфигов nginx
+- добавлена команда обновления make update для обхода конфликтов при слиянии конфигов
+<code>git stash</code>
+<code>git pull</code>
+<code>git stash pop stash@{0}</code>
+<code>make r</code>
+08.07.2023 update AdGuard Home v0.107.33
+<code>git pull</code>
+<code>make r</code>
+28.06.2023 нэйминг бэкапов
+<code>git pull</code>
+28.06.2023 XTLS-Reality
+<code>git pull</code>
+<code>make r</code>
+23.06.2023 миграция на alpine образы
+<b>ЭКСПОРТ!!!</b>
+<code>make d</code>
+<code>git reset --hard</code>
+<code>git pull</code>
+<code>make cleanall</code> (два раза подтверждаем Y)
+<code>make u</code>
+<b>ИМПОРТ!!!</b>
+20.06.2023 раздел логов
+<code>git pull</code>
+18.06.2023 улучшение меню вг
+<code>git pull</code>
+18.06.2023 adguardHome v0.107.32
+<code>git pull</code>
+18.06.2023 бэкап по крону
+<code>git pull</code>
+<code>make r</code>
+18.06.2023 изменение меню MTProto
+<code>git pull</code>
+16.06.2023 время пира в абсолютном формате
+<code>git pull</code>
+16.06.2023
+- новые правила наименования пира
+- улучшение отображения статуса пиров, отображение трафика
+<code>git pull</code>
+16.06.2023 исправлен скрипт автозагрузки
+<code>cd /root/vpnbot</code>
+<code>git pull</code>
+<code>bash scripts/install_as_service.sh</code>
+12.06.2023
+- обновлен adguard до v0.107.31
+<code>git pull</code>
+<code>make r</code>
+11.06.2023
+- улучшен дашборд пиров под мобилку
+- фикс показа выключенного пира
+- фикс обновления статуса пиров
+- сокращения подписей
+11.06.2023
+- переделан дашборд пиров
+- включение/выключение пира теперь всегда сбрасывает таймер
+- фикс рассинхрона конфигов при удалении пира
+- фикс, при добавлении пира учитываются айпи выключенных пиров
+<code>git pull</code>
+<code>make r</code>
+10.06.2023 фикс добавления пира вг "список подсетей"
+<code>git pull</code>
+09.06.2023 фикс поведения кнопки подсетей
+<code>git pull</code>
+07.06.2023 фикс рассинхрона пароля в ss
+<code>git pull</code>
+07.06.2023 установка таймера включает пир, если он был выключен
+<code>git pull</code>
+07.06.2023 адаптация конфига wg под текущий домен/айпи/порт
+<code>git pull</code>
+06.06.2023 отображение времени жизни пира в виде счетчика
+<code>git pull</code>
+06.06.2023 изменена логика запуска MTProto и кнопки генерации секрета
+<code>git pull</code>
+06.06.2023 фикс зависания wireguard после ребута
+<code>git pull</code>
+в файле <pre>config/wg0.conf</pre> удалите строчку с DNS, если она там есть
+перезапустите <code>make r</code>
+05.06.2023 пофиксил "автозагрузку":
+<code>service vpnbot stop</code>
+<code>git pull</code>
+<code>bash scripts/install_as_service.sh</code>
+<code>service vpnbot start</code>
+05.06.2023 уведомление о старте бота
+05.06.2023 версионирование
