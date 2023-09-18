@@ -57,9 +57,9 @@ $i = [
         'en' => 'Menu',
         'ru' => 'Меню',
     ],
-    'update status'        => [
-        'en' => 'update status',
-        'ru' => 'обновить статус',
+    'listSubnet'  => [
+        'en' => 'listSubnet',
+        'ru' => 'список подсетей',
     ],
     'add peer'             => [
         'en' => 'add peer',
@@ -205,9 +205,9 @@ $i = [
         'en' => 'blinkmenu off',
         'ru' => 'прыгающее меню выкл',
     ],
-    'listSubnet'  => [
-        'en' => 'listSubnet',
-        'ru' => 'список подсетей',
+    'update status'        => [
+        'en' => 'update status',
+        'ru' => 'обновить статус',
     ],
     'AllowedIPs'  => [
         'en' => 'AllowedIPs',
