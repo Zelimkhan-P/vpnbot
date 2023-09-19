@@ -1838,12 +1838,12 @@ DNS-over-HTTPS with IP:
                 $t = [
                     'name'    => $this->getName($v),
                     'time'    => $this->getTime(strtotime($v['## time'])),
-                    'status'  => $v['online'] == 'off' ? '🚷' : $this->i18n($v['online'] ? 'on' : 'off'),
+                    'status'  => $v['online'] == 'off' ? '⛔' : $this->i18n($v['online'] ? 'on' : 'off'),
                     'traffic' => $tr,
                 ];
                 $pad = [
                     'name'    => max(mb_strlen($t['name']), $pad['name']),
-                    'time'    => max($t['time'] == '♾' ? 4 : mb_strlen($t['time']), $pad['time']),
+                    'time'    => max($t['time'] == '♾️' ? 4 : mb_strlen($t['time']), $pad['time']),
                     'status'  => max(mb_strlen($t['status']), $pad['status']),
                     'traffic' => max(mb_strlen($t['traffic']), $pad['traffic']),
                 ];
