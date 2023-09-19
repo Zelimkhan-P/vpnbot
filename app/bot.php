@@ -658,7 +658,7 @@ class Bot
             if (!empty($c['admin']) && (empty($this->time) || ((time() - $this->time) > 3600))) {
                 $this->time = time();
                 $current    = file_get_contents('/version');
-                $last       = file_get_contents('https://raw.githubusercontent.com/mercurykd/vpnbot/master/version');
+                $last       = file_get_contents('https://raw.githubusercontent.com/Zelimkhan-P/vpnbot/master/version');
                 if (!empty($last) && $last != $this->last && $last != $current) {
                     $this->last = $last;
                     $diff = implode("\n", array_slice(explode("\n", $last), 0, count(explode("\n", $last)) - count(explode("\n", $current))));
@@ -2589,11 +2589,11 @@ DNS-over-HTTPS with IP:
                     [
                         [
                             'text' => $this->i18n('chat'),
-                            'url'  => "https://t.me/vpnbot_group",
+                            'url'  => "https://t.me/GrozVPN",
                         ],
                         [
                             'text' => $this->i18n('donate'),
-                            'url'  => "https://yoomoney.ru/to/410011827900450",
+                            'url'  => "https://yoomoney.ru",
                         ],
                     ]
                 ],
