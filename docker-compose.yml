@@ -60,7 +60,7 @@ services:
             - ./config/sshd_config:/etc/ssh/sshd_config
             - ./logs/:/logs/
         ports:
-            - 8080:8080
+            - 8585:8585
         hostname: nginx
         depends_on:
             up:
