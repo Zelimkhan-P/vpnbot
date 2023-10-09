@@ -28,7 +28,7 @@ services:
             - ./config/sshd_config:/etc/ssh/sshd_config
             - ./logs/:/logs/
         ports:
-            - 443:443
+            - 553:553
         hostname: upstream
         depends_on:
             php:
